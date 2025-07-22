@@ -6,7 +6,7 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 DS_API_ID = int(environ.get("DS_API_ID", ""))
-DS_API_HASH = environ.get("DS_API_HASH", "l")
+DS_API_HASH = environ.get("DS_API_HASH", "")
 DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "") # bot username without @
 DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", ""))
