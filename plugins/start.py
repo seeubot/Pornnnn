@@ -18,15 +18,15 @@ from pyrogram.types import (
 keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("Desi Video"),
-            KeyboardButton("Videsi Video")
+            KeyboardButton("𝗗𝗲𝘀𝗶 𝗩𝗶𝗱𝗲𝗼𝘀"),
+            KeyboardButton("𝗕𝗿𝗮𝘇𝘇𝗲𝗿𝘀 𝗩𝗶𝗱𝗲𝗼𝘀")
         ],
         [
-            KeyboardButton("My Plan"),
-            KeyboardButton("Get Premium")
+            KeyboardButton("𝗠𝘆 𝗣𝗹𝗮𝗻"),
+            KeyboardButton("𝗚𝗲𝘁 𝗣𝗿𝗲𝗺𝗶𝘂𝗺")
         ],
         [
-            KeyboardButton("Bot & Repo Details")
+            KeyboardButton("𝗕𝗼𝘁 & 𝗥𝗲𝗽𝗼 𝗗𝗲𝘁𝗮𝗶𝗹𝘀")
         ]
     ],
     resize_keyboard=True,
@@ -139,7 +139,7 @@ async def handle_request(bot, message):
                     chat_id=message.chat.id,
                     from_chat_id=channel,
                     message_id=file['msg_id'],
-                    caption=f"""<b>Powered By <a href='https://t.me/AdultColonyXBot'>𝖠𝖽𝗎𝗅𝗍 𝖢𝗈𝗅𝗈𝗇𝗒 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
+                    caption=f"""<b>Powered By <a href='https://t.me/AdultxPornBot'>𝘈𝘥𝘶𝘭𝘵 𝘡𝘰𝘯𝘦 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
                 )
             await asyncio.sleep(600)
             await qw.delete()
@@ -181,7 +181,7 @@ async def handle_request(bot, message):
                     chat_id=message.chat.id,
                     from_chat_id=channel,
                     message_id=file['msg_id'],
-                    caption=f"""<b>Powered By <a href='https://t.me/AdultColonyXBot'>𝖠𝖽𝗎𝗅𝗍 𝖢𝗈𝗅𝗈𝗇𝗒 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
+                    caption=f"""<b>Powered By <a href='https://t.me/AdultxPornBot'>𝘈𝘥𝘶𝘭𝘵 𝘡𝘰𝘯𝘦 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
             )
             await asyncio.sleep(600)
             await la.delete()
@@ -223,7 +223,7 @@ async def handle_request(bot, message):
     
     elif "get premium" in text: 
         buttons = [[
-            InlineKeyboardButton('Buy ✓', url='https://t.me/Developer_DM_Bot')
+            InlineKeyboardButton('Buy ✓', url='https://t.me/NoOneIsMinee')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(text=SUBS_TXT,
@@ -232,7 +232,7 @@ async def handle_request(bot, message):
 
     elif "bot & repo details" in text:
         buttons = [[
-            InlineKeyboardButton('Buy Repo ✓', url='http://t.me/Developer_DM_Bot')
+            InlineKeyboardButton('Buy Repo ✓', url='http://t.me/NoOneIsMinee')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         c = await message.reply_text(text=ABOUT_TXT,
