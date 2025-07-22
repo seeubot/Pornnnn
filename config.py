@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 DS_API_ID = int(environ.get("DS_API_ID", "21134445"))
 DS_API_HASH = environ.get("DS_API_HASH", "231c18ea7273824491d6bf05425ab74e")
-DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "7868730175:AAGC5s1pILJH8C6zRAImOGE2ZxvF48GXR14")
+DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "7868730175:AAEc6lKCHnROOYlN5go8OOiVOYSAyvAwEb0")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "AdultxPornBot") # bot username without @
 DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1002287964531"))
 DS_STICKER = environ.get("DS_STICKER", "")
@@ -37,8 +37,8 @@ DS_DB_NAME = environ.get("DS_DB_NAME", "susant-botz")
 DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1002777869483')) # give your force subscribe channel id here else leave it blank
 
 # Verification Variables
-DS_API = environ.get("DS_API", "Shortxlinks.com") # shortlink api
-DS_URL = environ.get("DS_URL", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink domain without https://
+DS_API = environ.get("DS_API", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink api
+DS_URL = environ.get("DS_URL", "shortxlinks.com") # shortlink domain without https://
 DS_VERIFY_TUTORIAL = environ.get("DS_VERIFY_TUTORIAL", "https://t.me/howtoopenCineZonelinks/5") # how to open link 
 DS_VERIFICATION = bool(environ.get("DS_VERIFICATION", True)) # set True Or False and make sure spelling is correct and first letter capital.
 
