@@ -7,16 +7,16 @@ id_pattern = re.compile(r'^.\d+$')
 
 DS_API_ID = int(environ.get("DS_API_ID", "21134445"))
 DS_API_HASH = environ.get("DS_API_HASH", "231c18ea7273824491d6bf05425ab74e")
-DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "")
-DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "") # bot username without @
-DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", ""))
+DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "7868730175:AAGC5s1pILJH8C6zRAImOGE2ZxvF48GXR14")
+DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "AdultxPornBot") # bot username without @
+DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1002287964531"))
 DS_STICKER = environ.get("DS_STICKER", "")
 DS_PIC = environ.get('DS_PIC', 'https://envs.sh/k-.jpg/HGBOTZ.jpg')
 
 # Database Channel For Text Or Caption Store 
-DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", ""))
-DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", ""))
-FREE_LIMIT_DESI = 10
+DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", "-1002812150081"))
+DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", "-1002812150081"))
+FREE_LIMIT_DESI = 5
 FREE_LIMIT_VIDESI = 3
 PREMIUM_LIMIT_DESI = 40
 PREMIUM_LIMIT_VIDESI = 15
@@ -34,12 +34,12 @@ DS_DB_URI = environ.get("DS_DB_URI", "mongodb+srv://dragonbytexmikey:vkFfYQyByjm
 DS_DB_NAME = environ.get("DS_DB_NAME", "susant-botz")
 
 # Force subscribe channel 
-DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '')) # give your force subscribe channel id here else leave it blank
+DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1002777869483')) # give your force subscribe channel id here else leave it blank
 
 # Verification Variables
 DS_API = environ.get("DS_API", "Shortxlinks.com") # shortlink api
-DS_URL = environ.get("DS_URL", "") # shortlink domain without https://
-DS_VERIFY_TUTORIAL = environ.get("DS_VERIFY_TUTORIAL", "") # how to open link 
+DS_URL = environ.get("DS_URL", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink domain without https://
+DS_VERIFY_TUTORIAL = environ.get("DS_VERIFY_TUTORIAL", "https://t.me/howtoopenCineZonelinks/5") # how to open link 
 DS_VERIFICATION = bool(environ.get("DS_VERIFICATION", True)) # set True Or False and make sure spelling is correct and first letter capital.
 
 # (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
