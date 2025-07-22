@@ -93,25 +93,25 @@ class Database:
         return await self.users.update_one(
             {"id": user_id}, {"$set": {"expiry_time": None}}
         )
-    
-    async def get_plan(self, id):
-        user = await self.users.find_one({'id': int(id)})
-        return user['plan']
-    
-    async def get_date(self, id):
-        user = await self.users.find_one({'id': int(id)})
-        return user['date']
-    
-    async def get_free_used(self, id):
-        user = await self.users.find_one({'id': int(id)})
-        return user['free_used']
 
     async def set_pre_used(self, id, pre_used):
         await self.users.update_one({'id': int(id)}, {'$set': {'pre_used': pre_used}})
 
+    async def get_plan(self, id):
+        user = await self.users.find_one({'id': int(id)})
+        return user.get('plan', False) if user else False
+    
+    async def get_date(self, id):
+        user = await self.users.find_one({'id': int(id)})
+        return user.get('date') if user else None
+    
+    async def get_free_used(self, id):
+        user = await self.users.find_one({'id': int(id)})
+        return user.get('free_used', {"desi": 0, "videsi": 0}) if user else {"desi": 0, "videsi": 0}
+
     async def get_pre_used(self, id):
         user = await self.users.find_one({'id': int(id)})
-        return user['pre_used']
+        return user.get('pre_used', 0) if user else 0
     
 db = Database()
 
