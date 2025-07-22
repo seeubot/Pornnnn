@@ -18,15 +18,15 @@ from pyrogram.types import (
 keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("𝗗𝗲𝘀𝗶 𝗩𝗶𝗱𝗲𝗼𝘀"),
-            KeyboardButton("𝗕𝗿𝗮𝘇𝘇𝗲𝗿𝘀 𝗩𝗶𝗱𝗲𝗼𝘀")
+            KeyboardButton("Desi Video"),
+            KeyboardButton("Videsi video")
         ],
         [
-            KeyboardButton("𝗠𝘆 𝗣𝗹𝗮𝗻"),
-            KeyboardButton("𝗚𝗲𝘁 𝗣𝗿𝗲𝗺𝗶𝘂𝗺")
+            KeyboardButton("My Plan"),
+            KeyboardButton("Get Premium")
         ],
         [
-            KeyboardButton("𝗕𝗼𝘁 & 𝗥𝗲𝗽𝗼 𝗗𝗲𝘁𝗮𝗶𝗹𝘀")
+            KeyboardButton("Bot & Repo Details")
         ]
     ],
     resize_keyboard=True,
