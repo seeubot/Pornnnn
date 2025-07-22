@@ -15,8 +15,8 @@ DSMYPLANTXT = """<blockquote><b>𝗬𝗼𝘂𝗿 𝗣𝗹𝗮𝗻 𝗗𝗲𝘁�
 """
 
 ABOUT_TXT = """<b>
-🤖 ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/AdultColonyXBot'>𝖠𝖽𝗎𝗅𝗍 𝖢𝗈𝗅𝗈𝗇𝗒 💦</a>
-🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Developer_DM_Bot'>🔗 ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🤖 ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/AdultxPornBot'>𝘈𝘥𝘶𝘭𝘵 𝘡𝘰𝘯𝘦 💦</a>
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/NoOneIsMinee'>🔗 ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 🖥️ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟥</a> 
 🗃️ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
