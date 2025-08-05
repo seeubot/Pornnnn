@@ -15,7 +15,7 @@ DS_PIC = environ.get('DS_PIC', 'https://envs.sh/k-.jpg/HGBOTZ.jpg')
 
 # Database Channel For Text Or Caption Store 
 DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", "-1002453897160"))
-DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", "-1002855994773"))
+DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", "-1002541647242"))
 FREE_LIMIT_DESI = 5
 FREE_LIMIT_VIDESI = 3
 PREMIUM_LIMIT_DESI = 40
