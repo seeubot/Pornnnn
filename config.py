@@ -5,11 +5,11 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
-DS_API_ID = int(environ.get("DS_API_ID", "21134445"))
-DS_API_HASH = environ.get("DS_API_HASH", "231c18ea7273824491d6bf05425ab74e")
+DS_API_ID = int(environ.get("DS_API_ID", "23054736"))
+DS_API_HASH = environ.get("DS_API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
 DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "6578034792:AAGbSGcWlxg1jUT73WYS_xpdAJsYy0Rrk0A")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "seeu_storebot") # bot username without @
-DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1002287964531"))
+DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1002078545756"))
 DS_STICKER = environ.get("DS_STICKER", "")
 DS_PIC = environ.get('DS_PIC', 'https://envs.sh/k-.jpg/HGBOTZ.jpg')
 
