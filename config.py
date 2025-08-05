@@ -24,17 +24,17 @@ PREMIUM_LIMIT_VIDESI = 15
 # Bot Admins
 try:
     DS_ADMINS=[]
-    for x in (environ.get("DS_ADMINS", "8156708830").split()):
+    for x in (environ.get("DS_ADMINS", "1352497419").split()):
         DS_ADMINS.append(int(x))
 except ValueError:
       raise Exception("Your Admins list does not contain valid integers.")
     
 # Mongodb Database 
-DS_DB_URI = environ.get("DS_DB_URI", "mongodb+srv://dragonbytexmikey:vkFfYQyByjm4zCqS@cluster0.akw3kyd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DS_DB_NAME = environ.get("DS_DB_NAME", "susant-botz")
+DS_DB_URI = environ.get("DS_DB_URI", "mongodb+srv://room:room@room.4vris.mongodb.net/?retryWrites=true&w=majority&appName=room")
+DS_DB_NAME = environ.get("DS_DB_NAME", "room")
 
 # Force subscribe channel 
-DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1002777869483')) # give your force subscribe channel id here else leave it blank
+DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1002078545756')) # give your force subscribe channel id here else leave it blank
 
 # Verification Variables
 DS_API = environ.get("DS_API", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink api
